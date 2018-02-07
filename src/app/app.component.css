@@ -1,0 +1,63 @@
+.wrap-div {
+  margin: 5%;
+}
+
+.title {
+  padding-bottom: 3%;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+}
+
+.button {
+  background-color: rgb(54, 54, 54);
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  margin-top:0%;
+  margin-bottom:2%
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+.table {
+  width: 100%;
+}
+
+.table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th {
+  background: blue;
+  color: white;
+  height: 70px;
+}
+
+td {
+  border: 1px solid black;
+  max-width: 200px;
+  overflow-wrap: break-word;
+  padding: 20px;
+}
+
